@@ -37,8 +37,6 @@ For parameter information, try "help":
 Example usage:
 
     $ ./county-lookup --state Illinois --county Cl
-
-
     STATE     COUNTY     FIPS   NAD27  NAD83 (NAME & PROJ)        
     Illinois  McLean     17113  1201   1201 (Illinois East, tmerc)
     Illinois  Clay       17025  1201   1201 (Illinois East, tmerc)
