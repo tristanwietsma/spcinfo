@@ -1,5 +1,5 @@
-SPC: State Plane Coordinates
-===========================
+spcinfo
+=======
 
 Working with the state plane coordinate system can be a pain, so I've compiled some useful information (like NAD83 zones and PROJ4 parameters) on a county basis. To allow rapid search, I've wrapped the data with a couple Python scripts.
 
