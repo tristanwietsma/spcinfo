@@ -8,7 +8,6 @@ Prerequisites
 
 * Python 2.7.X
 
-
 county-lookup
 -------------
 
@@ -74,11 +73,3 @@ We can search using either the FIPS or NAD83.
     $ ./proj4-params --nad83 1201
     NAD83(97) US SURVEY FEET: +proj=tmerc +lat_0=36.66666666666666 +lon_0=-88.33333333333333 +k=0.9999749999999999 +x_0=300000.0000000001 +y_0=0 +ellps=GRS80 +to_meter=0.3048006096012192 +no_defs
 
-Future
-------
-
-* I'll add future projection parameters as required.
-
-* I'm going to write a wrapper over PROJ4 that allow transformations from state plane to geodetic (WSG84) using FIPS or NAD83 zone as the only parameter (i.e. I'll store the PROJ4 params in a hash within the program).
-
-* If you have any interest in building out this project, drop me an email. There are already many great libraries and command-line utilities available for geospatial manipulation, but I'm interested in streamlining the parameter search.
